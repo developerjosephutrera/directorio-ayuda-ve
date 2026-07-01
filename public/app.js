@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const termino = e.target.value.toLowerCase();
         const filtrados = datos.filter(item => 
             item.estado.toLowerCase().includes(termino) || 
-            item.municipio.toLowerCase().includes(termino)
+            item.municipio.toLowerCase().includes(termino) ||
+            item.nombre.toLowerCase().includes(termino) // ¡Nueva línea agregada!
         );
         renderizar(filtrados);
     });

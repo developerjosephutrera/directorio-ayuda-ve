@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // 1. Cargar el JSON estático
     try {
-        const respuesta = await fetch('./datos.json');
+        const respuesta = await fetch('https://raw.githubusercontent.com/developerjosephutrera/directorio-ayuda-ve/main/datos.json');
         datos = await respuesta.json();
         renderizar(datos);
     } catch (error) {

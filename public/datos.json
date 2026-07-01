@@ -1,0 +1,18 @@
+[
+  {
+    "estado": "Distrito Capital",
+    "municipio": "Libertador",
+    "nombre": "Centro de Acopio UCV",
+    "necesidades": { "agua": "critico", "comida": "estable", "medicinas": "critico" },
+    "direccion": "Entrada principal, Plaza las Tres Gracias",
+    "actualizado": "01/07/2026 10:30 AM"
+  },
+  {
+    "estado": "Miranda",
+    "municipio": "Chacao",
+    "nombre": "Plaza Altamira Sur",
+    "necesidades": { "agua": "estable", "comida": "moderado", "medicinas": "estable" },
+    "direccion": "Frente a la estación del metro",
+    "actualizado": "01/07/2026 10:45 AM"
+  }
+]

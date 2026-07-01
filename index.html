@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Ayuda - Venezuela</title>
+    <!-- Tailwind por CDN para el MVP rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans p-4">
+    <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-2 text-red-600">Ayuda Activa Venezuela</h1>
+        <p class="text-center mb-6 text-sm">Directorio actualizado de Centros de Acopio y Refugios</p>
+        
+        <!-- Buscador básico -->
+        <input type="text" id="buscador" placeholder="Buscar por estado o municipio..." class="w-full p-3 mb-6 border rounded shadow-sm">
+
+        <!-- Contenedor de las tarjetas -->
+        <div id="contenedor-refugios" class="space-y-4">
+            <p class="text-center text-gray-500">Cargando datos...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
